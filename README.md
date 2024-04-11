@@ -22,3 +22,5 @@ The optimized model achieved an accuracy of approximately 77.7%, indicating a su
 * Model Architecture Refinement: Increased the depth of the neural network by adding an additional hidden layer and adjusted the number of neurons in each layer to better capture the complexity of the dataset.
 * Feature Engineering: Removed less informative features and those hypothesized to have minimal impact on the model's predictive ability.
 * Data Scaling: Applied StandardScaler to normalize the feature variables, ensuring that the neural network could more effectively learn from the data.
+## Summary
+The deep learning model for Alphabet Soup's funding applications saw its accuracy rise to 77.7% through optimization efforts. Computational limitations, however, prevented the use of Keras Tuner for hyperparameter tuning, suggesting that with the right computational resources, future improvements could harness Keras Tuner for finer optimization and potentially achieve even higher accuracy.
